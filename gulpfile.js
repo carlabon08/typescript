@@ -1,0 +1,10 @@
+'use strict';
+var browserify = require('browserify'),  
+gulp = require('gulp'), 
+run = require('gulp-run'),
+uglify = require('gulp-uglify'),
+sourcemaps = require('gulp-sourcemaps'),
+ts = require('gulp-typescript'),
+tslint = require('gulp-tslint'),
+sass = require('gulp-sass'),
+scsslint = require('gulp-scss-lint'),
